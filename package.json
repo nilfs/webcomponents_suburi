@@ -1,0 +1,22 @@
+{
+    "repository": "https://github.com/darkeclipz/html5-typescript-template",
+    "license": "Public Domain",
+    "devDependencies": {
+        "esbuild": "^0.13.2",
+        "source-map-loader": "latest",
+        "ts-loader": "^9.2.6",
+        "typescript": "latest",
+        "webpack": "^5.53.0",
+        "webpack-cli": "^4.8.0"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.1",
+        "http-server": "^13.0.2"
+    },
+    "scripts": {
+        "vscode:prepublish": "webpack --mode production",
+        "webpack": "webpack --mode development",
+        "webpack-dev": "webpack --mode development --watch",
+        "test-compile": "tsc -p ./"
+    }
+}
